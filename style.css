@@ -1,0 +1,154 @@
+/* Base styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Styling for the header */
+  header {
+    background: #4a90e2;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header p {
+    font-size: 1em;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.9em;
+    color: #f0f0f0;
+  }
+  
+  .breadcrumb p {
+    margin: 0;
+  }
+  
+  /* Styling for the introduction section */
+  .introduction {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .introduction p {
+    margin-bottom: 1.5em;
+  }
+  
+  /* Styling for the first section */
+  .first-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .first-section h2 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    margin-top: 20px;
+  }
+  
+  .first-section p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .first-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .first-section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the second section */
+  .second-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .second-section h2 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    margin-top: 20px;
+  }
+  
+  .second-section p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .second-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .second-section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.75em;
+    }
+  
+    .breadcrumb {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .introduction,
+    .first-section,
+    .second-section {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    .breadcrumb {
+      font-size: 0.8em;
+    }
+  
+    .introduction,
+    .first-section,
+    .second-section {
+      padding: 10px;
+    }
+  }
+  
